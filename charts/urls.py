@@ -1,4 +1,6 @@
 from django.urls import path
+from .views import CombinedFormSubmission
+#CombinedFormSubmission.as_view()from django.urls import path
 from .views import (
     StCompanyOverviewList, 
     StCompanyOverviewDetail, 
@@ -28,6 +30,6 @@ urlpatterns = [
     # Parametric Scoring
     path('parametric-scoring', StParametricScoringList.as_view(), name='parametric-scoring-list'),
     path('parametric-scoring/<int:st_parametric_scoring_id>/', StParametricScoringDetail.as_view(), name='parametric-scoring-detail'),
-
-    path('submit-all-forms', CombinedFormSubmission.as_view(), name='submit_all_forms'),
+    path('api/v1/submit-all-forms/', CombinedFormSubmission.as_view(), name='submit_all_forms'),
+#    path('submit-all-forms', CombinedFormSubmission.as_view(), name='submit_all_forms'),
 ]
