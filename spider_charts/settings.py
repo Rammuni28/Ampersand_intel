@@ -24,12 +24,49 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = config('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+# Enforce HTTPS
+SECURE_SSL_REDIRECT = True
+
+# Secure cookies
+CSRF_COOKIE_SECURE = True
+SESSION_COOKIE_SECURE = True
+USE_X_FORWARDED_HOST = True
+
+# Set the proxy header to trust Nginx for HTTPS
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+
+# HTTP Strict Transport Security (HSTS)
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+SECURE_HSTS_PRELOAD = True  # Optional: adds your site to browsers' HSTS preload list
+
+# Referrer policy
+SECURE_REFERRER_POLICY = "no-referrer-when-downgrade"
+
+# Allowed hosts
+#ALLOWED_HOSTS = ['ai.ampvc.co']
+
+# Disable debug mode in production
+DEBUG = False
 
 # settings.py
 
-ALLOWED_HOSTS = ['3.111.53.242', 'localhost', '127.0.0.1','ai.ampvc.co', 'www.ai.ampvc.co']
+ALLOWED_HOSTS = ['www.ai.ampvc.co', '3.110.177.173', 'localhost','localhost:3001', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
+CORS_ALLOWED_ORIGINS = [
+     # Replace with your actual frontend domain
+    "http://localhost:3000",  # If you're testing from a local dev server
+    "http://localhost:3001",
+    "http://localhost:3006",
+    'www.ai.ampvc.co',
+    "http://3.110.177.173:3006",
+]
+CORS_ALLOW_ALL_ORIGINS = True
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://www.ai.ampvc.co',
+]
 
 
 # Application definition
@@ -43,6 +80,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'charts',
     'rest_framework',
+    'corsheaders',
 ]
 
 MIDDLEWARE = [
@@ -53,6 +91,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.middleware.common.CommonMiddleware',
 ]
 
 ROOT_URLCONF = 'spider_charts.urls'
