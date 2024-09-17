@@ -1,3 +1,4 @@
+import logging
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
@@ -70,26 +71,6 @@ class StCompanyOverviewDetail(APIView):
             Session.remove()  # Properly clean up the session
     
     # PUT - Update details of a specific company
-    def put(self, request, st_company_id, format=None):
-        session = Session()
-        try:
-            company = self.get_object(st_company_id, session)
-            if company is None:
-                return Response({'error': 'Company not found'}, status=status.HTTP_404_NOT_FOUND)
-
-            data = request.data
-            for key, value in data.items():
-                if hasattr(company, key):
-                    setattr(company, key, value)
-
-            session.commit()
-            return Response({'message': 'Company updated successfully'}, status=status.HTTP_200_OK)
-        except Exception as e:
-            session.rollback()
-            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
-        finally:
-            Session.remove()  # Properly clean up the session
-
     # DELETE - Remove a specific company from the database
     def delete(self, request, st_company_id, format=None):
         session = Session()
@@ -169,26 +150,6 @@ class StFundingValuationDetail(APIView):
             Session.remove()  # Properly clean up the session
     
     # PUT - Update details of a specific funding valuation
-    def put(self, request, st_funding_id, format=None):
-        session = Session()
-        try:
-            funding = self.get_object(st_funding_id, session)
-            if funding is None:
-                return Response({'error': 'Funding valuation not found'}, status=status.HTTP_404_NOT_FOUND)
-
-            data = request.data
-            for key, value in data.items():
-                if hasattr(funding, key):
-                    setattr(funding, key, value)
-
-            session.commit()
-            return Response({'message': 'Funding valuation updated successfully'}, status=status.HTTP_200_OK)
-        except Exception as e:
-            session.rollback()
-            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
-        finally:
-            Session.remove()  # Properly clean up the session
-
     # DELETE - Remove a specific funding valuation from the database
     def delete(self, request, st_funding_id, format=None):
         session = Session()
@@ -276,26 +237,7 @@ class StOwnershipStructureDetail(APIView):
         finally:
             Session.remove()
     
-    # PUT - Update details of a specific ownership structure
-    def put(self, request, st_ownership_id, format=None):
-        session = Session()
-        try:
-            ownership = self.get_object(st_ownership_id, session)
-            if ownership is None:
-                return Response({'error': 'Ownership structure not found'}, status=status.HTTP_404_NOT_FOUND)
-
-            data = request.data
-            for key, value in data.items():
-                if hasattr(ownership, key):
-                    setattr(ownership, key, value)
-
-            session.commit()
-            return Response({'message': 'Ownership structure updated successfully'}, status=status.HTTP_200_OK)
-        except Exception as e:
-            session.rollback()
-            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
-        finally:
-            Session.remove()
+    # PUT - Update details of a specific ownership structu    def put(self, request, st_ownership_id, format=None):
 
     # DELETE - Remove a specific ownership structure from the database
     def delete(self, request, st_ownership_id, format=None):
@@ -408,25 +350,6 @@ class StParametricScoringDetail(APIView):
             Session.remove()
     
     # PUT - Update details of a specific parametric scoring
-    def put(self, request, st_parametric_scoring_id, format=None):
-        session = Session()
-        try:
-            scoring = self.get_object(st_parametric_scoring_id, session)
-            if scoring is None:
-                return Response({'error': 'Parametric scoring not found'}, status=status.HTTP_404_NOT_FOUND)
-
-            data = request.data
-            for key, value in data.items():
-                if hasattr(scoring, key):
-                    setattr(scoring, key, value)
-
-            session.commit()
-            return Response({'message': 'Parametric scoring updated successfully'}, status=status.HTTP_200_OK)
-        except Exception as e:
-            session.rollback()
-            return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
-        finally:
-            Session.remove()
 
     # DELETE - Remove a specific parametric scoring from the database
     def delete(self, request, st_parametric_scoring_id, format=None):
@@ -446,7 +369,7 @@ class StParametricScoringDetail(APIView):
             Session.remove()
 
 
-# Combined Form Submission (POST and GET  all forms data together)
+#
 class CombinedFormSubmission(APIView):
 
     def post(self, request, *args, **kwargs):
@@ -471,21 +394,22 @@ class CombinedFormSubmission(APIView):
             session.flush()  # Flush to get the company ID for other forms
 
             # Funding Valuation Form data
+            funding_data = data.get('funding_valuation', {})
             new_funding = StFundingValuation(
                 st_company_id=new_company.st_company_id,  # Linking to company
-                st_stage=data['funding_valuation']['st_stage'],
-                st_raised_to_date=data['funding_valuation']['st_raised_to_date'],  # Now expecting string
-                st_last_valuation=data['funding_valuation']['st_last_valuation'],  # Now expecting string
-                st_current_valuation=data['funding_valuation']['st_current_valuation'],  # Now expecting string
-                st_capital_requirements=data['funding_valuation']['st_capital_requirements'],  # Now expecting string
-                st_currency=data['funding_valuation'].get('st_currency', 'USD'),  # Consolidated single currency field
-                is_active=data['funding_valuation'].get('is_active', True)
-
+                st_stage=funding_data.get('st_stage'),
+                st_raised_to_date=funding_data.get('st_raised_to_date'),  # Now expecting string
+                st_last_valuation=funding_data.get('st_last_valuation'),  # Now expecting string
+                st_current_valuation=funding_data.get('st_current_valuation'),  # Now expecting string
+                st_capital_requirements=funding_data.get('st_capital_requirements'),  # Now expecting string
+                st_currency=funding_data.get('st_currency', 'USD'),  # Default currency
+                is_active=funding_data.get('is_active', True)
             )
             session.add(new_funding)
 
             # Ownership Structure Form data (Multiple shareholders possible)
-            for shareholder in data['ownership_structure']:
+            ownership_data = data.get('ownership_structure', [])
+            for shareholder in ownership_data:
                 new_ownership = StOwnershipStructure(
                     st_company_id=new_company.st_company_id,
                     st_type=shareholder['st_type'],
@@ -496,36 +420,32 @@ class CombinedFormSubmission(APIView):
                 session.add(new_ownership)
 
             # Parametric Scoring Form data
+            scoring_data = data.get('parametric_scoring', {})
             new_scoring = StParametricScoring(
                 st_company_id=new_company.st_company_id,
-                st_market_potential=data['parametric_scoring']['st_market_potential'],
-                st_product_viability=data['parametric_scoring']['st_product_viability'],
-                st_financial_health=data['parametric_scoring']['st_financial_health'],
-                st_team_strength=data['parametric_scoring']['st_team_strength'],
-                st_competitive_advantage=data['parametric_scoring']['st_competitive_advantage'],
-                st_customer_traction=data['parametric_scoring']['st_customer_traction'],
-                st_risk_factors=data['parametric_scoring']['st_risk_factors'],
-                st_exit_potential=data['parametric_scoring']['st_exit_potential'],
-                st_innovation=data['parametric_scoring']['st_innovation'],
-                st_sustainability=data['parametric_scoring']['st_sustainability'],
-                is_active=data['parametric_scoring'].get('is_active', True)
+                st_market_potential=scoring_data.get('st_market_potential'),
+                st_product_viability=scoring_data.get('st_product_viability'),
+                st_financial_health=scoring_data.get('st_financial_health'),
+                st_team_strength=scoring_data.get('st_team_strength'),
+                st_competitive_advantage=scoring_data.get('st_competitive_advantage'),
+                st_customer_traction=scoring_data.get('st_customer_traction'),
+                st_risk_factors=scoring_data.get('st_risk_factors'),
+                st_exit_potential=scoring_data.get('st_exit_potential'),
+                st_innovation=scoring_data.get('st_innovation'),
+                st_sustainability=scoring_data.get('st_sustainability'),
+                is_active=scoring_data.get('is_active', True)
             )
             session.add(new_scoring)
 
             # Commit all changes
             session.commit()
             return Response({'message': 'Forms submitted successfully'}, status=status.HTTP_201_CREATED)
-            
 
         except Exception as e:
             session.rollback()  # Rollback in case of error
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
         finally:
-            # Session.remove()  # Properly clean up the session
-            session.close()
-
-
-
+            session.close()  # Properly close the session
 
     def get(self, request, *args, **kwargs):
         session = Session()
@@ -535,14 +455,14 @@ class CombinedFormSubmission(APIView):
             if not latest_company:
                 return Response({'error': 'No companies found'}, status=status.HTTP_404_NOT_FOUND)
 
-            # Fetch all related details using the latest company ID
-            funding_valuation = session.query(StFundingValuation).filter_by(st_company_id=latest_company.st_company_id).all()
+            # Fetch related details using the latest company ID
+            funding_valuation = session.query(StFundingValuation).filter_by(st_company_id=latest_company.st_company_id).first()
             ownership_structure = session.query(StOwnershipStructure).filter_by(st_company_id=latest_company.st_company_id).all()
-            parametric_scoring = session.query(StParametricScoring).filter_by(st_company_id=latest_company.st_company_id).all()
+            parametric_scoring = session.query(StParametricScoring).filter_by(st_company_id=latest_company.st_company_id).first()
 
             # Prepare the response data
             company_details = {
-                'st_company_id': latest_company.st_company_id,  
+                'st_company_id': latest_company.st_company_id,  # Include the latest company ID here
                 'company_overview': {
                     'st_company_name': latest_company.st_company_name,
                     'st_company_description': latest_company.st_company_description,
@@ -555,34 +475,36 @@ class CombinedFormSubmission(APIView):
                     'st_geography': latest_company.st_geography,
                     'is_active': latest_company.is_active
                 },
-                'funding_valuation': [{
-                    'st_stage': item.st_stage,
-                    'st_raised_to_date': item.st_raised_to_date,
-                    'st_last_valuation': item.st_last_valuation,
-                    'st_current_valuation': item.st_current_valuation,
-                    'st_capital_requirements': item.st_capital_requirements,
-                    'st_currency': item.st_currency,
-                    'is_active': item.is_active
-                } for item in funding_valuation],
-                'ownership_structure': [{
-                    'st_type': item.st_type,
-                    'st_shareholder_name': item.st_shareholder_name,
-                    'st_holding_percentage': item.st_holding_percentage,
-                    'is_active': item.is_active
-                } for item in ownership_structure],
-                'parametric_scoring': [{ # Change here: Converted to list comprehension for each item
-                    'st_market_potential': item.st_market_potential,
-                    'st_product_viability': item.st_product_viability,
-                    'st_financial_health': item.st_financial_health,
-                    'st_team_strength': item.st_team_strength,
-                    'st_competitive_advantage': item.st_competitive_advantage,
-                    'st_customer_traction': item.st_customer_traction,
-                    'st_risk_factors': item.st_risk_factors,
-                    'st_exit_potential': item.st_exit_potential,
-                    'st_innovation': item.st_innovation,
-                    'st_sustainability': item.st_sustainability,
-                    'is_active': item.is_active
-                } for item in parametric_scoring] # Change here: Ensured each scoring item is processed
+                'funding_valuation': {
+                    'st_stage': funding_valuation.st_stage if funding_valuation else None,
+                    'st_raised_to_date': funding_valuation.st_raised_to_date if funding_valuation else None,
+                    'st_last_valuation': funding_valuation.st_last_valuation if funding_valuation else None,
+                    'st_current_valuation': funding_valuation.st_current_valuation if funding_valuation else None,
+                    'st_capital_requirements': funding_valuation.st_capital_requirements if funding_valuation else None,
+                    'st_currency': funding_valuation.st_currency if funding_valuation else None,
+                    'is_active': funding_valuation.is_active if funding_valuation else None
+                },
+                'ownership_structure': [
+                    {
+                        'st_type': own.st_type,
+                        'st_shareholder_name': own.st_shareholder_name,
+                        'st_holding_percentage': own.st_holding_percentage,
+                        'is_active': own.is_active
+                    } for own in ownership_structure
+                ],
+                'parametric_scoring': {
+                    'st_market_potential': parametric_scoring.st_market_potential if parametric_scoring else None,
+                    'st_product_viability': parametric_scoring.st_product_viability if parametric_scoring else None,
+                    'st_financial_health': parametric_scoring.st_financial_health if parametric_scoring else None,
+                    'st_team_strength': parametric_scoring.st_team_strength if parametric_scoring else None,
+                    'st_competitive_advantage': parametric_scoring.st_competitive_advantage if parametric_scoring else None,
+                    'st_customer_traction': parametric_scoring.st_customer_traction if parametric_scoring else None,
+                    'st_risk_factors': parametric_scoring.st_risk_factors if parametric_scoring else None,
+                    'st_exit_potential': parametric_scoring.st_exit_potential if parametric_scoring else None,
+                    'st_innovation': parametric_scoring.st_innovation if parametric_scoring else None,
+                    'st_sustainability': parametric_scoring.st_sustainability if parametric_scoring else None,
+                    'is_active': parametric_scoring.is_active if parametric_scoring else None
+                }
             }
 
             return Response(company_details, status=status.HTTP_200_OK)
@@ -591,3 +513,4 @@ class CombinedFormSubmission(APIView):
             return Response({'error': str(e)}, status=status.HTTP_400_BAD_REQUEST)
         finally:
             session.close()  # Properly close the session
+

@@ -1,0 +1,1002 @@
+Watching for file changes with StatReloader
+/home/ubuntu/spider-charts_test/spider_charts/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+September 15, 2024 - 03:49:19
+Django version 5.1.1, using settings 'spider_charts.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+
+Error: That port is already in use.
+[15/Sep/2024 08:16:45] code 400, message Bad request version ('D\x83\x93¹Ê\x82\x07ºmV\x8ck¨E\x8aÄdýËeuf\x84\x13×\x93k\x8b´*ç]é"\x8bº\x83Éz´\x8dË\x9b\\N5F¼X\x0eq|!]qq¬&\x82q»\x86X')
+[15/Sep/2024 08:16:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06´\x01\x00\x06°\x03\x03+\x8d^\x8dÖ\x14\x05$©JïC\x88\x94óÐNö\x83Í,µxäHÄ>\x00\x97Aþ\x87')
+[15/Sep/2024 08:16:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:45] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06ô\x01\x00\x06ð\x03\x030\x9c=\x82þ\x16\x99T!S')
+[15/Sep/2024 08:16:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:45] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06§**\x00\x00\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00\x12\x00\x00\x00')
+[15/Sep/2024 08:16:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:45] code 400, message Bad request version ('\x00\x02\x01\x00\x00-\x00\x02\x01\x01\x00\x17\x00\x00ÿ\x01\x00\x01\x00\x00')
+[15/Sep/2024 08:16:45] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:46] code 400, message Bad request syntax ('\x16\x03\x01\x07\x14\x01\x00\x07\x10\x03\x03-Îþb\x06\xad¾Î[\x9b@¥\x06@f')
+[15/Sep/2024 08:16:46] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 08:16:48] "GET /api/v1/submit-all-forms HTTP/1.0" 301 0
+[15/Sep/2024 08:16:49] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 11:03:40] "GET /submit-all-forms HTTP/1.1" 301 0
+[15/Sep/2024 17:14:38] "GET /submit-all-forms HTTP/1.1" 301 0
+[15/Sep/2024 17:14:38] code 400, message Bad request version ('À\x13À')
+[15/Sep/2024 17:14:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:14:47] "GET /submit-all-forms HTTP/1.1" 301 0
+[15/Sep/2024 17:14:47] code 400, message Bad request version ('ÇEI1\x89\x84')
+[15/Sep/2024 17:14:47] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:15:22] "GET /api/v1/submit-all-forms/ HTTP/1.0" 400 8543
+[15/Sep/2024 17:15:27] "GET /submit-all-forms HTTP/1.1" 301 0
+[15/Sep/2024 17:15:27] code 400, message Bad request version ('À\x13À')
+[15/Sep/2024 17:15:27] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:15:28] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:15:34] code 400, message Bad request version ('À\x13À')
+[15/Sep/2024 17:15:34] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:15:38] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:16:15] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:16:54] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:20:37] code 400, message Bad request version ('**\x13\x01\x13\x02\x13\x03À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x01\x00\x06gªª\x00\x00\x00')
+[15/Sep/2024 17:20:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:37] code 400, message Bad request version ('\x02h2\x08http/1.1\x00')
+[15/Sep/2024 17:20:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:38] code 400, message Bad request version ('b\x14\x11\x8c\x04Å»n<%\x8e2RF\x14:öV')
+[15/Sep/2024 17:20:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:38] code 400, message Bad request version ('ai.ampvc.co\x00')
+[15/Sep/2024 17:20:38] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:40] code 400, message Bad request version ('êL4¥ö·.\x89')
+[15/Sep/2024 17:20:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:40] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[15/Sep/2024 17:20:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:40] code 400, message Bad request version ('ai.ampvc.co\x00-\x00\x02\x01\x01\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00')
+[15/Sep/2024 17:20:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:40] code 400, message Bad request version ('<_ºñ\x00')
+[15/Sep/2024 17:20:40] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:41] code 400, message Bad request version ('´Æ\x06\x83')
+[15/Sep/2024 17:20:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:41] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x06ô\x01\x00\x06ð\x03\x03þc\xad\x9b¥ºy"Ð¾Ã[')
+[15/Sep/2024 17:20:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:41] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+[15/Sep/2024 17:20:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:41] code 400, message Bad request version ('\x00\x12\x00\x10\x04\x03\x08\x04\x04\x01\x05\x03\x08\x05\x05\x01\x08\x06\x06\x01\x00\x17\x00\x00\x00\x05\x00\x05\x01\x00\x00\x00\x00\x00+\x00\x07\x06ªª\x03\x04\x03\x03Di\x00\x05\x00\x03\x02h2\x00')
+[15/Sep/2024 17:20:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 17:20:46] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:20:55] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:24:03] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:24:20] "GET /api/v1/submit-all-forms/1 HTTP/1.0" 404 179
+[15/Sep/2024 17:24:27] "GET /api/v1/submit-all-forms/2 HTTP/1.0" 404 179
+[15/Sep/2024 17:24:31] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:24:38] "GET /api/v1/submit-all-forms HTTP/1.0" 301 0
+[15/Sep/2024 17:24:38] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:26:52] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:26:55] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:26:56] "GET /api/v1/submit-all-forms HTTP/1.0" 301 0
+[15/Sep/2024 17:26:56] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 8944
+[15/Sep/2024 17:27:30] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 924
+[15/Sep/2024 17:28:30] "POST /api/v1/submit-all-forms/ HTTP/1.0" 201 42
+[15/Sep/2024 17:28:37] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:10] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:29] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:29] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:38] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:38] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:29:39] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:30:24] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 17:30:24] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 18:22:44] code 400, message Bad request version ('À\x13À')
+[15/Sep/2024 18:22:44] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 19:56:45] "GET /api/v1/submit-all-forms HTTP/1.0" 301 0
+[15/Sep/2024 19:56:45] "GET /api/v1/submit-all-forms HTTP/1.0" 301 0
+[15/Sep/2024 19:56:45] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 19:56:45] "GET /api/v1/submit-all-forms/ HTTP/1.0" 200 1164
+[15/Sep/2024 21:57:25] "GET / HTTP/1.1" 301 0
+[15/Sep/2024 21:57:25] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+[15/Sep/2024 21:57:25] You're accessing the development server over HTTPS, but it only supports HTTP.
+[15/Sep/2024 21:58:37] code 400, message Bad request syntax ('\x16\x03\x01\x01')
+[15/Sep/2024 21:58:37] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 02:34:15,871] - Broken pipe from ('104.152.52.87', 34122)
+[16/Sep/2024 02:34:24] "GET / HTTP/1.0" 301 0
+[16/Sep/2024 02:34:24] "OPTIONS / HTTP/1.0" 301 0
+[16/Sep/2024 02:34:25] code 400, message Bad request version ('RTSP/1.0')
+[16/Sep/2024 02:34:25] "OPTIONS / RTSP/1.0" 400 -
+[16/Sep/2024 02:34:30] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Sep/2024 02:34:30] "  (rþ          |                    " 400 -
+[16/Sep/2024 02:34:36] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 02:34:36] "          versionbind   " 400 -
+[16/Sep/2024 02:34:41] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 02:34:41] "            " 400 -
+[16/Sep/2024 02:34:41] code 400, message Bad request syntax ('HELP')
+[16/Sep/2024 02:34:41] "HELP" 400 -
+[16/Sep/2024 02:34:41] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[16/Sep/2024 02:34:41] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 02:34:42] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[16/Sep/2024 02:34:42] "  *%à     Cookie: mstshash=nmap" 400 -
+[16/Sep/2024 02:34:42] code 400, message Bad request version ('\x00/\x00')
+[16/Sep/2024 02:34:42] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 02:34:43] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[16/Sep/2024 02:34:43] "   qjn0k¡¢" 400 -
+[16/Sep/2024 02:34:48] code 400, message Bad request version ('0.12\x00')
+[16/Sep/2024 02:34:48] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[16/Sep/2024 02:34:53] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[16/Sep/2024 02:34:53] "l          " 400 -
+[16/Sep/2024 02:34:53] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 301 0
+[16/Sep/2024 02:34:54] code 400, message Bad request syntax ('\x01default')
+[16/Sep/2024 02:34:54] "default" 400 -
+[16/Sep/2024 02:34:54] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[16/Sep/2024 02:34:54] "0   -c   $ " 400 -
+[16/Sep/2024 02:35:00] code 400, message Bad HTTP/0.9 request type ('0')
+[16/Sep/2024 02:35:00] "0`  " 400 -
+[16/Sep/2024 03:58:37,741] - Broken pipe from ('104.152.52.84', 53460)
+[16/Sep/2024 03:58:44] "GET / HTTP/1.0" 301 0
+[16/Sep/2024 03:58:45] "OPTIONS / HTTP/1.0" 301 0
+[16/Sep/2024 03:58:46] code 400, message Bad request version ('RTSP/1.0')
+[16/Sep/2024 03:58:46] "OPTIONS / RTSP/1.0" 400 -
+[16/Sep/2024 03:58:51] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Sep/2024 03:58:51] "  (rþ          |                    " 400 -
+[16/Sep/2024 03:58:56] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 03:58:56] "          versionbind   " 400 -
+[16/Sep/2024 03:59:01] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 03:59:01] "            " 400 -
+[16/Sep/2024 03:59:02] code 400, message Bad request syntax ('HELP')
+[16/Sep/2024 03:59:02] "HELP" 400 -
+[16/Sep/2024 03:59:02] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[16/Sep/2024 03:59:02] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 03:59:02] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[16/Sep/2024 03:59:02] "  *%à     Cookie: mstshash=nmap" 400 -
+[16/Sep/2024 03:59:03] code 400, message Bad request version ('\x00/\x00')
+[16/Sep/2024 03:59:03] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 03:59:03] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[16/Sep/2024 03:59:03] "   qjn0k¡¢" 400 -
+[16/Sep/2024 03:59:09] code 400, message Bad request version ('0.12\x00')
+[16/Sep/2024 03:59:09] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[16/Sep/2024 03:59:14] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[16/Sep/2024 03:59:14] "l          " 400 -
+[16/Sep/2024 03:59:14] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 301 0
+[16/Sep/2024 03:59:15] code 400, message Bad request syntax ('\x01default')
+[16/Sep/2024 03:59:15] "default" 400 -
+[16/Sep/2024 03:59:15] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[16/Sep/2024 03:59:15] "0   -c   $ " 400 -
+[16/Sep/2024 03:59:20] code 400, message Bad HTTP/0.9 request type ('0')
+[16/Sep/2024 03:59:20] "0`  " 400 -
+[16/Sep/2024 05:44:52,721] - Broken pipe from ('104.152.52.48', 34244)
+[16/Sep/2024 05:44:59] "GET / HTTP/1.0" 301 0
+[16/Sep/2024 05:45:00] "OPTIONS / HTTP/1.0" 301 0
+[16/Sep/2024 05:45:01] code 400, message Bad request version ('RTSP/1.0')
+[16/Sep/2024 05:45:01] "OPTIONS / RTSP/1.0" 400 -
+[16/Sep/2024 05:45:06] code 400, message Bad request version ('\x00\x01\x97|\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00')
+[16/Sep/2024 05:45:06] "  (rþ          |                    " 400 -
+[16/Sep/2024 05:45:11] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 05:45:11] "          versionbind   " 400 -
+[16/Sep/2024 05:45:16] code 400, message Bad HTTP/0.9 request type ('\x00')
+[16/Sep/2024 05:45:16] "            " 400 -
+[16/Sep/2024 05:45:17] code 400, message Bad request syntax ('HELP')
+[16/Sep/2024 05:45:17] "HELP" 400 -
+[16/Sep/2024 05:45:17] code 400, message Bad request syntax ('\x16\x03\x00\x00S\x01\x00\x00O\x03\x00?G×÷º,îê²`~ó\x00ý\x82{¹Õ\x96Èw\x9bæÄÛ<=Ûoï\x10n\x00\x00(\x00\x16\x00\x13\x00')
+[16/Sep/2024 05:45:17] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 05:45:17] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%à\x00\x00\x00\x00\x00Cookie:')
+[16/Sep/2024 05:45:17] "  *%à     Cookie: mstshash=nmap" 400 -
+[16/Sep/2024 05:45:18] code 400, message Bad request version ('\x00/\x00')
+[16/Sep/2024 05:45:18] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 05:45:18] code 400, message Bad request syntax ('\x00\x00\x00qj\x81n0\x81k¡\x03\x02\x01\x05¢\x03\x02\x01')
+[16/Sep/2024 05:45:18] "   qjn0k¡¢" 400 -
+[16/Sep/2024 05:45:24] code 400, message Bad request version ('0.12\x00')
+[16/Sep/2024 05:45:24] "   ¤ÿSMBr    @              @     PC NETWORK PROGRAM 1.0 MICROSOFT NETWORKS 1.03 MICROSOFT NETWORKS 3.0 LANMAN1.0 LM1.2X002 Samba NT LANMAN 1.0 NT LM 0.12 " 400 -
+[16/Sep/2024 05:45:29] code 400, message Bad HTTP/0.9 request type ('l\x00')
+[16/Sep/2024 05:45:29] "l          " 400 -
+[16/Sep/2024 05:45:29] "GET /nice%20ports%2C/Tri%6Eity.txt%2ebak HTTP/1.0" 301 0
+[16/Sep/2024 05:45:30] code 400, message Bad request syntax ('\x01default')
+[16/Sep/2024 05:45:30] "default" 400 -
+[16/Sep/2024 05:45:30] code 400, message Bad request syntax ('0\x84\x00\x00\x00-\x02\x01\x07c\x84\x00\x00\x00$\x04\x00')
+[16/Sep/2024 05:45:30] "0   -c   $ " 400 -
+[16/Sep/2024 05:45:35] code 400, message Bad HTTP/0.9 request type ('0')
+[16/Sep/2024 05:45:35] "0`  " 400 -
+[16/Sep/2024 06:01:50] code 400, message Bad request version ('k\x02÷\x9fÓ!¦\x00')
+[16/Sep/2024 06:01:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:50] code 400, message Bad request version ('}\x9aC')
+[16/Sep/2024 06:01:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:50] code 400, message Bad request version ('\x02h2\x08http/1.1\x00\x1b\x00\x03\x02\x00\x02\x00+\x00\x07\x06ÚÚ\x03\x04\x03\x03\x00')
+[16/Sep/2024 06:01:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:50] code 400, message Bad request syntax ('\x16\x03\x01\x06´\x01\x00\x06°\x03\x03\x99äògeÞîÕ¶ê\x86KÔÑä\x86bÍ\x1a0\x97Ó\x87^p^')
+[16/Sep/2024 06:01:50] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:53] code 400, message Bad request version ('ûF.\x9d')
+[16/Sep/2024 06:01:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:53] code 400, message Bad request version ('ÔV)è\x81±æ_®S')
+[16/Sep/2024 06:01:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:53] code 400, message Bad request version ("$\x05ýöD\x17?9¿\x94÷×¿»\x86\x9c'\x04k\x8eôä\x91Ýâ[ß#:GÁÁ\x8f\x8b\x84Y(}J¼nxÔÈ\x01é¼Çj\x9f½;/Á£rÇ´oð\x83wä&L\x00T(k\x10@d¢/ÛÛhÑ\x17\x8a")
+[16/Sep/2024 06:01:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:01:53] code 400, message Bad request version ('\x8d\x0f\x00')
+[16/Sep/2024 06:01:53] You're accessing the development server over HTTPS, but it only supports HTTP.
+[16/Sep/2024 06:06:34] "GET /api/v1/submit-all-forms/ HTTP/1.0" 400 8574
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+September 15, 2024 - 08:15:49
+Django version 5.1.1, using settings 'spider_charts.settings'
+Starting development server at http://0.0.0.0:2001/
+Quit the server with CONTROL-C.
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/spider_charts/urls.py", line 22, in <module>
+    path('',include("charts.urls")),
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/charts/urls.py", line 2, in <module>
+    from .views import CombinedFormSubmission
+  File "/home/ubuntu/spider-charts_test/charts/views.py", line 542
+    latest_funding = session.query(StFundingValuation).filter_by(st_company_id=latest_company.st_company_id).first()
+                                                                                                                    ^
+IndentationError: unindent does not match any outer indentation level
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/spider_charts/urls.py", line 22, in <module>
+    path('',include("charts.urls")),
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/charts/urls.py", line 2, in <module>
+    from .views import CombinedFormSubmission
+  File "/home/ubuntu/spider-charts_test/charts/views.py", line 542
+    latest_funding = session.query(StFundingValuation).filter_by(st_company_id=latest_company.st_company_id).first()
+                                                                                                                    ^
+IndentationError: unindent does not match any outer indentation level
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 486, in check
+    all_issues = checks.run_checks(
+                 ^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 44, in check_url_namespaces_unique
+    all_namespaces = _load_all_namespaces(resolver)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/checks/urls.py", line 63, in _load_all_namespaces
+    url_patterns = getattr(resolver, "url_patterns", [])
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 718, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+                       ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/functional.py", line 47, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+                                         ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/resolvers.py", line 711, in urlconf_module
+    return import_module(self.urlconf_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/spider_charts/urls.py", line 22, in <module>
+    path('',include("charts.urls")),
+            ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/urls/conf.py", line 39, in include
+    urlconf_module = import_module(urlconf_module)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/home/ubuntu/spider-charts_test/charts/urls.py", line 2, in <module>
+    from .views import CombinedFormSubmission
+  File "/home/ubuntu/spider-charts_test/charts/views.py", line 542
+    latest_funding = session.query(StFundingValuation).filter_by(st_company_id=latest_company.st_company_id).first()
+                                                                                                                    ^
+IndentationError: unindent does not match any outer indentation level
+Performing system checks...
+
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/commands/runserver.py", line 134, in inner_run
+    self.check(display_num_errors=True)
+  File "/home/ubuntu/spider-charts_test/venv/lib/python3.12/site-packages/django/core/management/base.py", line 563, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+?: (corsheaders.E013) Origin 'www.ai.ampvc.co' in CORS_ALLOWED_ORIGINS is missing scheme or netloc
+	HINT: Add a scheme (e.g. https://) or netloc (e.g. example.com).
+
+System check identified 1 issue (0 silenced).
